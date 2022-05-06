@@ -1,6 +1,6 @@
 # Initial Environment Setup
 
-This task will help you get familiar with the DHIS2 CLI. You will also learn how to initialize a new DHIS2 application and you will follow these same steps before you start building your [Project 1](../../projects/project1/README.md)
+This task will help you get familiar with the DHIS2 CLI. You will also learn how to initialize a new DHIS2 application and you will follow these same steps before you start building your [Project](../../projects/project/README.md)
 
 ## Pre-requisites
 
@@ -15,10 +15,10 @@ d2 help
 ```
 
 ## Initialize a new DHIS2 app
- 
+
 **Note:** Before you initialize your app, please make sure that you do the following:
 
-1. [Create a branch](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch) in your repository for this task and name it 👉 `01-setup-environment` 
+1. [Create a branch](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch) in your repository for this task and name it 👉 `01-setup-environment`
 > Make sure that you're working on this branch. For more details, please check the [get started](../../resources/GET_STARTED.md#how-to-submit-assignments) guide on working and submitting assignments
 
 2. Check that you're in the correct working directory:
@@ -26,7 +26,7 @@ d2 help
 On your terminal, navigate to the directory where you'll be working:
 
 ```
-cd workshop-1
+cd workshop
 cd 01-environment-setup
 ```
 
@@ -55,7 +55,7 @@ ls
 Once you've created `my-app`, your directory structure should look like this:
 
 ```
- ── workshop-1
+ ── workshop
     ├── 00-introduction
     ├── 01-environment-setup
     │   ├── README.md
@@ -109,8 +109,8 @@ yarn format
 ```
 ## Start your DHIS2 application locally
 
-Please follow [these steps](../../resources/GET_STARTED.md#start-your-dhis2-application-locally) to start your application on your browser.  
+Please follow [these steps](../../resources/GET_STARTED.md#start-your-dhis2-application-locally) to start your application on your browser.
 
-## Submit your assignment 
+## Submit your assignment
 
-When you're ready, please follow these [instructions](../../resources/GET_STARTED.md#how-to-submit-assignments) for submitting your assignment. 
+When you're ready, please follow these [instructions](../../resources/GET_STARTED.md#how-to-submit-assignments) for submitting your assignment.

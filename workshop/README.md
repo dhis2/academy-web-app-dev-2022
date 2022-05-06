@@ -11,7 +11,7 @@ May 9 - 12, 2022, 10:00-13:00 CET
 - **Day 3** - App Runtime: Advanced Data Queries and Hooks
 - **Day 4** - Making apps generic and tools (PWA and DataStore)
 
-## Schedule
+## Agenda
 
 [See this doc](https://docs.google.com/document/d/1_XAxzC6xLBhbw80L869iQJ8Epj5fLI0m1dKSAK2CF78/edit?usp=sharing)
 
