@@ -1,6 +1,6 @@
 # DHIS2 Web App Development Academy 2022
 
-**Session Recordings** for Workshops 1 and 2 are available on the [DHIS2 Developer Portal](https://developers.dhis2.org/events/academy-workshops-2022).
+**Session Recordings** for the workshops will be available on the [DHIS2 Developer Portal](https://developers.dhis2.org/events/academy-workshops-2022).
 
 ## Resources
 
@@ -10,10 +10,6 @@ A [getting started guide](./resources/GET_STARTED.md) is also available.
 
 ## Structure
 
-### Workshop 1 - The Basics
-- [**Workshop Agenda**](./workshop-1) - _March 17 - 18_
-- [**Project 1**](./projects/project1) - _due May 1_
-
-### Workshop 2 - Advanced
-- [**Workshop Agenda**](./workshop-2) - _May 4-7_
-- [**Final Project**](./projects/final-project) - _due June 18_
+### Workshop
+- [**Workshop Agenda**](./workshop) - _May 9 - 12_
+- [**Project**](./projects/project) - _due Jul 1_
