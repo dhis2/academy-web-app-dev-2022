@@ -5,7 +5,7 @@ This task will help you get familiar with the DHIS2 CLI. You will also learn how
 ## Pre-requisites
 
 1. Install [Node.js](https://nodejs.org/en/download/)
-2. Install [Yarn](https://yarnpkg.com/getting-started/install)
+2. Install [Yarn 1](https://classic.yarnpkg.com/en/docs/install)
 
 ## Install the DHIS2 CLI
 
@@ -65,27 +65,19 @@ Once you've created `my-app`, your directory structure should look like this:
 
 ## Set up code-style with DHIS2 style
 
-The `d2` cli includes a tool for checking and fixing the style of javascript and text files in your repository.  The tool, called [d2-style](https://cli-style.dhis2.nu/), runs [`prettier`](https://prettier.io/) and [`eslint`](https://eslint.org) under the hood with [a standardized configuration](https://github.com/dhis2/cli-style/tree/master/config/js).  It also installs git hooks with [husky](https://github.com/typicode/husky) which will automatically check your code style before making a `git` commit!
+D2-style[d2-style](https://cli-style.dhis2.nu/) is a tool that runs [`prettier`](https://prettier.io/) and [`eslint`](https://eslint.org) under the hood with [a standardized configuration](https://github.com/dhis2/cli-style/tree/master/config/js).  It also installs git hooks with [husky](https://github.com/typicode/husky) which will automatically check your code style before making a `git` commit!
 
 Following the DHIS2 styleguide isn't strictly required, but it can be very helpful in ensuring you write clean, readable, and functional code for your DHIS2 apps!
 
 ```sh
-d2 style install project/react
-```
-
-**OR, if you don't have `d2` installed globally**
-
-```sh
-npx @dhis2/cli-style install project/react
+yarn add @dhis2/cli-style --dev
+yarn d2-style add eslint react
+yarn d2-style install
 ```
 
 This will set up the project to automatically follow the DHIS2 style guidelines
 
 ## Add lint and format scripts
-
-```sh
-yarn add @dhis2/cli-style --dev
-```
 
 Then, add the following scripts to `package.json`:
 
@@ -95,8 +87,10 @@ Then, add the following scripts to `package.json`:
     // ...
     "scripts": {
         // ...
-        "lint": "d2-style js check && d2-style text check",
-        "format": "d2-style js apply && d2-style text apply"
+        "lint": "yarn d2-style check",
+        "lint:staged": "yarn lint --staged",
+        "format": "yarn d2-style apply",
+        "format:staged": "yarn format --staged"
     }
 }
 ```
