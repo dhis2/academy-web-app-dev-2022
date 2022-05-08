@@ -2,7 +2,7 @@
 
 If you can't login to the server: https://academy.demos.dhis2.org/web-app/ or you get some Cross-Origin Resource Sharing (CORs) policy issues in the DevTools Console when trying to connect to your application, please try the following troubleshooting steps:
 
-##  CORs whitelist
+## CORs whitelist
 
 If you have a DHIS2 instance, by default only web applications that are running on the same URL can access that DHIS2 instance.
 
@@ -20,13 +20,16 @@ See below:
 
 There are a few things that you could do if you're using Chrome and the problem persists:
 
-### SameSite by default cookies flag
+### Use --proxy when starting server
 
-Disable the default SameSite Cookie behavior in Chrome by setting the "SameSite by default cookies" flag [chrome://flags/#same-site-by-default-cookies](chrome://flags/#same-site-by-default-cookies) to **Disabled**.
+Due to the default SameSite cookie behaviour in Chrome being impossible to override as of Chrome 94, you should use the `--proxy`-flag when starting the application.
+This starts a proxy-server in the background, re-routing all requests from your localhost to the specified DHIS2-instance, circumventing the SameSite behaviour.
 
-**IMPORTANT**: You may need to restart your browser to apply the new setting.
+```
+yarn start --proxy https://debug.dhis2.org/academy --proxyPort 8082
+```
 
-**Note**: this disables legitimate security behaviors in your browser, so proceed with caution! We recommend that you only disable this flag when actively debugging a DHIS2 application.
+_Note_: Make sure to set the Server-field when logging into your app to `http://localhost:8082`.
 
 Read this blog to learn more about [SameSite Cookie Policies and DHIS2 Applications](https://developers.dhis2.org/blog/cross-origin-cookies).
 
@@ -34,10 +37,10 @@ Read this blog to learn more about [SameSite Cookie Policies and DHIS2 Applicati
 
 If you're having some issues with CodeSandbox:
 
-- Please [Restart Sandbox](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/CODESANDBOX.md) using the toolbar on the left, or restart the server
-- Refresh the browser in the Sandbox
-- Make sure to save the code (with `CTRL + S` or `CMD + S`)
-- Refresh your browser
+-   Please [Restart Sandbox](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/CODESANDBOX.md) using the toolbar on the left, or restart the server
+-   Refresh the browser in the Sandbox
+-   Make sure to save the code (with `CTRL + S` or `CMD + S`)
+-   Refresh your browser
 
 ### Disabling cache
 
