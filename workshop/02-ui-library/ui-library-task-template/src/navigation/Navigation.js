@@ -1,4 +1,4 @@
-import { PropTypes } from '@dhis2/prop-types'
+import PropTypes from 'prop-types'
 import React from 'react'
 // @TODO: Import the `Menu` and `MenuItem` components
 import { useHistory, useRouteMatch } from 'react-router-dom'
