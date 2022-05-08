@@ -1,6 +1,6 @@
 # Task Instructions
 
-**IMPORTANT**: Fork [this codesandbox](https://githubbox.com/dhis2/academy-web-app-dev-2021/tree/main/workshop-2/02-generic-dhis2-apps/datastore)
+**IMPORTANT**: Fork [this codesandbox](https://githubbox.com/dhis2/academy-web-app-dev-2022/tree/main/workshop-2/02-generic-dhis2-apps/datastore)
 
 Once you get to the sign in page, you will need to enter the following:
 

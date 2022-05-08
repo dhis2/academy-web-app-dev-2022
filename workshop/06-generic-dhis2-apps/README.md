@@ -11,6 +11,6 @@ Some handy links:
 
 ### DataStore
 
-Open the **datastore** [CodeSandbox link](https://githubbox.com/dhis2/academy-web-app-dev-2021/tree/main/workshop/02-generic-dhis2-apps/datastore) and follow the instructions in [the README](./datastore/README.md)
+Open the **datastore** [CodeSandbox link](https://githubbox.com/dhis2/academy-web-app-dev-2022/tree/main/workshop/02-generic-dhis2-apps/datastore) and follow the instructions in [the README](./datastore/README.md)
 
 > **NOTE** : Don't forget to fork the sandbox!
