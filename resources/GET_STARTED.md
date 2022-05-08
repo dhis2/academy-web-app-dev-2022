@@ -23,7 +23,7 @@ Next, let's setup your local environment.
 * Once you have navigated to the directory where you want to put your repository, run the following:
 
 ```sh
-git clone https://github.com/dhis2-academy/web-dev-2022-YOUR-NAME.git
+git clone https://github.com/DHIS2-Developer-Academy/web-dev-2022-YOUR-NAME.git
 ```
 
 The `git clone` command copies your repository from GitHub to your local computer.
@@ -89,13 +89,13 @@ password: district
 
 Before you start working on the assignments, you will need to create a new branch in your repository for each task. Then, you will work on this branch and open a pull request once you're done. If you're familiar with feature-driven or branch-based development, this is a very similar process. The task workflow would therefore look like this:
 
-1. Create a new branch
-2. Work on this branch
-3. Open a Pull Request
+1. Create a new branch in your repo
+2. Work on this branch and submit changes
+3. Create a Pull Request (PR) against your repo
 4. Receive review from instructors
-5. Merge your Pull Request to `main`
+5. Merge your Pull Request (PR)
 
-### Create a new branch
+### Create a new branch in your repo
 
 * You can [create a branch](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch) on your GitHub repository. Make sure to name your branch as the task name. For example, `02-ui-library`
 * Or from your terminal:
@@ -108,25 +108,25 @@ git checkout -b 02-ui-library
 ```
 * Work on your assignments - make sure you're working on that same branch
 
-### Commit and Push changes
+### Work on this branch and submit changes
 
 * Once you're done, commit and push the changes to your remote repository:
 
 ```
 git add .
-git commit -m “<type-commit-message>”
+git commit -m "<type-commit-message>"
 git push origin <branch-name>
 ```
 
-### Create a Pull Request
+### Create a Pull Request (PR) against your repo
 
-* Once you push the changes to your repository, the **Compare & pull request** green button will appear on GitHub. Click and follow the instructions. Add the name of the assignment `02-ui-library` as the title of your pull request and leave a comment
-* Open a pull request by clicking the `Create pull request` green button
+* Once you push the changes to your repository, the **Compare & pull request** green button will appear on GitHub. Click and follow the instructions. Add the name of the assignment (e.g. `01-environment-setup`) as the title of your pull request and leave a comment
+* Open a pull request by clicking the `Create pull request` green button (but don't do the next step of merging)
 
-### Instructors will review your PR
+### Receive review from instructors
 
 * Instructors will be able to see your submission and provide feedback from the GitHub Classroom ✍🏽
 
-### Merge your PR
+### Merge your Pull Request (PR)
 
 * After you've received your PR review, you'll be able to merge your it to your `main` in your repository ✨
