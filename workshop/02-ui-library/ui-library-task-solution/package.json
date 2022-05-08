@@ -13,13 +13,14 @@
         "format": "d2-style js apply && d2-style text apply"
     },
     "devDependencies": {
-        "@dhis2/cli-app-scripts": "^5.7.4",
+        "@dhis2/cli-app-scripts": "^9.0.0",
         "@dhis2/cli-style": "^7.3.0"
     },
     "dependencies": {
-        "@dhis2/app-runtime": "^2.8.0",
+        "@dhis2/app-runtime": "^3.4.3",
         "@dhis2/prop-types": "^2.0.3",
         "@dhis2/ui": "^6.5.5",
+        "prop-types": "^15.8.1",
         "react-router-dom": "^5.2.0"
     }
 }
