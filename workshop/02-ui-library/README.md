@@ -55,7 +55,7 @@ yarn add @dhis2/ui
 
 The documentation of the UI library can be found here: [https://ui.dhis2.nu](https://ui.dhis2.nu/#/).
 
-This documentation also features an improved version of [live demos](https://ui.dhis2.nu/demo/) that uses Storybook to showcase components. For each component, you will see a number of demos and its different variations and how they interact with props. Make sure to check them out! 
+This documentation also features an improved version of [live demos](https://ui.dhis2.nu/demo/) that uses Storybook to showcase components. For each component, you will see a number of demos and its different variations and how they interact with props. Make sure to check them out!
 
 <a name="intro--workshop-intro" href=""></a>
 ### Workshop tasks introduction
@@ -73,7 +73,7 @@ action is required by you in order to complete the task.
 <a name="training-environment" href=""></a>
 ## 2. Training environment
 
-Please follow [this step-by-step guide](../../resources/GET_STARTED.md#working-on-directories-that-contain-starter-code) on how to setup your local enviornment and start working on this assignment. 
+Please follow [this step-by-step guide](../../resources/GET_STARTED.md#working-on-directories-that-contain-starter-code) on how to setup your local enviornment and start working on this assignment.
 
 <a name="src-structure" href=""></a>
 ## 3. Structure inside the `src` folder
@@ -144,7 +144,7 @@ an `h1`.
 ## 5. Task 2 - Create a Table for the attributes that are being loaded
 
 After the sidebar has been added, you can navigate to the attributes page.
-On this page some attributes are being loaded from the database. 
+On this page some attributes are being loaded from the database.
 These should then be displayed in a table.
 
 If you did not complete the first task, you can't navigate to this page.
@@ -302,18 +302,16 @@ validators to use.
 <a name="solution" href=""></a>
 ## 7. Solution for all three tasks
 
-If you think you're done, you can compare your result with the solution in the `ui-library-task-solution` directory: 
+If you think you're done, you can compare your result with the solution in the `ui-library-task-solution` directory:
 
 ```
- ── workshop-1
+ ── workshop
     ├── 02-ui-library
     │   ├── README.md
     │   ├── ui-library-task-template
-    │   └── ui-library-task-solution 
+    │   └── ui-library-task-solution
 ```
 
-### Submit your assignment 
+### Submit your assignment
 
-When you're ready, please follow these [instructions](../../resources/GET_STARTED.md#how-to-submit-assignments) for submitting your assignment. 
-
-
+When you're ready, please follow these [instructions](../../resources/GET_STARTED.md#how-to-submit-assignments) for submitting your assignment.
