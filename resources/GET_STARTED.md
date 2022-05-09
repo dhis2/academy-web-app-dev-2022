@@ -74,7 +74,7 @@ You are now ready to start your application locally!
 * Finally, go back to [http://localhost:3000](http://localhost:3000) and enter the following:
 
 ```
-server: https://academy.demos.dhis2.org/web-app/
+server: http://localhost:8082
 username: admin
 password: district
 ```
