@@ -26,7 +26,7 @@ Due to the default SameSite cookie behaviour in Chrome being impossible to overr
 This starts a proxy-server in the background, re-routing all requests from your localhost to the specified DHIS2-instance, circumventing the SameSite behaviour.
 
 ```
-yarn start --proxy https://debug.dhis2.org/academy --proxyPort 8082
+yarn start --proxy https://academy.demos.dhis2.org/web-app --proxyPort 8082
 ```
 
 _Note_: Make sure to set the Server-field when logging into your app to `http://localhost:8082`.
