@@ -1,7 +1,3 @@
-# App Runtime Demo
-
-This is part of a live demo to show some advanced features of the DHIS2 app runtime - see the files `src/components/VisualizationsList.js` and `src/components/VisualizationsListItem.js`.
-
 This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
 
 ## Available Scripts

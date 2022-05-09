@@ -3,7 +3,7 @@ const config = {
     title: 'Data Query - Pagination Solution',
 
     entryPoints: {
-        app: './src/App',
+        app: './src/App.js',
     },
 }
 

@@ -1,36 +1,45 @@
-# Workshop 1 - App Runtime Task 1
+This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
 
-## Useful Links
+## Available Scripts
 
-* [DHIS2 Application Runtime](https://runtime.dhis2.nu/#/)
-* [How to work on assignments](../../../resources/GET_STARTED.md#working-on-directories-that-contain-starter-code): Follow instructions on how to  start working on assignments. 
+In the project directory, you can run:
 
+### `yarn start`
 
-## Tasks 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* Here you would need to write a query and define some parameters 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-```js
-const query = {
-    results: {
-        // @TODO: Writa a query to show 5 indicators with their name and description
-    },
-}
-```
-* Finally, you would need to use that query defined above to render your data 👇 
+### `yarn test`
 
-```js
-export const IndicatorsList = () => {
-    // @TODO: Replace this line with a hook to perform the above query!
-    const { loading, error, data } = { loading: false, error: 'Unimplemented', data: undefined } 
-}
-```
-## Solution:
+Launches the test runner and runs all available tests found in `/src`.<br />
 
-* After you've completed these tasks, your application should look like this:
+See the section about [running tests](https://platform.dhis2.nu/#/scripts/test) for more information.
 
-![](./assets/indicators.png) 
+### `yarn build`
 
-### Submit your assignment 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-When you're ready, please follow these [instructions](../../../resources/GET_STARTED.md#how-to-submit-assignments) to submit your assignment. 
+The build is minified and the filenames include the hashes.<br />
+A deployable `.zip` file can be found in `build/bundle`!
+
+See the section about [building](https://platform.dhis2.nu/#/scripts/build) for more information.
+
+### `yarn deploy`
+
+Deploys the built app in the `build` folder to a running DHIS2 instance.<br />
+This command will prompt you to enter a server URL as well as the username and password of a DHIS2 user with the App Management authority.<br/>
+You must run `yarn build` before running `yarn deploy`.<br />
+
+See the section about [deploying](https://platform.dhis2.nu/#/scripts/deploy) for more information.
+
+## Learn More
+
+You can learn more about the platform in the [DHIS2 Application Platform Documentation](https://platform.dhis2.nu/).
+
+You can learn more about the runtime in the [DHIS2 Application Runtime Documentation](https://runtime.dhis2.nu/).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
