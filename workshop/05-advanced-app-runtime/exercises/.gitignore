@@ -5,6 +5,6 @@ src/locales
 build
 .DS_Store
 
-### VisualStudioCode ###
+# ## VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

@@ -1,52 +1,45 @@
-# Task Instructions
+This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
 
-**IMPORTANT**: Fork [this codesandbox](https://githubbox.com/dhis2/academy-web-app-dev-2022/tree/main/workshop-2/02-generic-dhis2-apps/datastore)
+## Available Scripts
 
-Once you get to the sign in page, you will need to enter the following:
+In the project directory, you can run:
 
-```
-server: https://academy.demos.dhis2.org/web-app
-username: admin
-password: district
-```
+### `yarn start`
 
-## If you're having issues connecting to the server
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Please check [this link](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/DEBUG.md#if-youre-using-chrome) for troubleshooting tips.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## If you're having issues with CodeSandbox:
+### `yarn test`
 
-- Please [Restart Sandbox](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/CODESANDBOX.md) using the toolbar on the left, or restart the server
-- Refresh the browser in the Sandbox
-- Make sure to save the code (with `CTRL + S` or `CMD + S`)
-- Refresh your browser
+Launches the test runner and runs all available tests found in `/src`.<br />
 
-## Reference
+See the section about [running tests](https://platform.dhis2.nu/#/scripts/test) for more information.
 
-- Check the [slides](https://drive.google.com/file/d/1LgLE2uEWeKGp8ik3aeV1gMbLvqqQSxxu/view?usp=sharing) for code examples for these 4 tasks
-- DataStore [API documentation]()
-- App Service Datastore [documentation](https://github.com/dhis2/app-service-datastore)
+### `yarn build`
 
-## TASK 1 - Initialize the DataStoreProvider
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- In this task you will import a DataStoreProvider and render it as a wrapper around the application contents
-- Specify the namespace "my-custom-app-namespace-1234"
-- Check comments `@TODO-1`
-- You will be working in the `src/App.js` component
+The build is minified and the filenames include the hashes.<br />
+A deployable `.zip` file can be found in `build/bundle`!
 
-## TASK 2 - Render a list of saved visualization objects
+See the section about [building](https://platform.dhis2.nu/#/scripts/build) for more information.
 
-- Check the comments in the `src/VisualizationList.js` component starting with `@TODO-2`
-- In this task you will use the `useSavedObjectList` hook to show a list of saved objects in your userDataStore namespace
+### `yarn deploy`
 
-## TASK 3 - Support adding new visualizations
+Deploys the built app in the `build` folder to a running DHIS2 instance.<br />
+This command will prompt you to enter a server URL as well as the username and password of a DHIS2 user with the App Management authority.<br/>
+You must run `yarn build` before running `yarn deploy`.<br />
 
-- Here you will be working in the `src/VisualizationList.js` and `src/AddControl.js` components
-- Check for comments starting with `@TODO-3`
-- The goal of this task is to make the Add button work
+See the section about [deploying](https://platform.dhis2.nu/#/scripts/deploy) for more information.
 
-## TASK 4 - Support deleting visualizations
+## Learn More
 
-- Here you will be working in the `src/RemoveButton.js` component
-- Check for comments starting with `@TODO-4`
-- The goal of this task is to make the Remove buttons work
+You can learn more about the platform in the [DHIS2 Application Platform Documentation](https://platform.dhis2.nu/).
+
+You can learn more about the runtime in the [DHIS2 Application Runtime Documentation](https://runtime.dhis2.nu/).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
