@@ -1,45 +1,19 @@
-This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
+## Workshop 1 - App Runtime Task 2
 
-## Available Scripts
+### Fill in mutations
 
-In the project directory, you can run:
+This application uses mutations in 2 React components:
+- [DeleteVisualizationButton](./src/components/DeleteVisualizationButton.js)
+- [NewVisualizationButton](./src/components/NewVisualizationButton.js)
 
-### `yarn start`
+The application is almost complete, all you need to do is fill in the mutations in those two files.  You can use the [Data Query Playground](https://runtime.dhis2.nu/playground) to test different mutations.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## OPTIONAL BONUS
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+If you've completed everything and want a challenge, you can **add a new feature to this application**.  This is **completely optional**, so don't worry about it if you haven't completed all the other tasks yet.
 
-### `yarn test`
+### The Bonus Feature
 
-Launches the test runner and runs all available tests found in `/src`.<br />
+This application supports **creating** and **deleting** visualizations, but it doesn't support **renaming** them.  This is your task:
 
-See the section about [running tests](https://platform.dhis2.nu/#/scripts/test) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-A deployable `.zip` file can be found in `build/bundle`!
-
-See the section about [building](https://platform.dhis2.nu/#/scripts/build) for more information.
-
-### `yarn deploy`
-
-Deploys the built app in the `build` folder to a running DHIS2 instance.<br />
-This command will prompt you to enter a server URL as well as the username and password of a DHIS2 user with the App Management authority.<br/>
-You must run `yarn build` before running `yarn deploy`.<br />
-
-See the section about [deploying](https://platform.dhis2.nu/#/scripts/deploy) for more information.
-
-## Learn More
-
-You can learn more about the platform in the [DHIS2 Application Platform Documentation](https://platform.dhis2.nu/).
-
-You can learn more about the runtime in the [DHIS2 Application Runtime Documentation](https://runtime.dhis2.nu/).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Add an `Rename` button to each row in `VisualizationsTable.js`.  This Edit button should open a `Dialog` component (from `@dhis2/ui`) which contains a form.  That form should allow the user to type a new name for the selected Visualization.  When submitted, the form should use a Data Mutation to send a POST request updating the visualization's name.  The dialog should then disappear and the table of visualizations should refresh to show the updated name.  Good luck!

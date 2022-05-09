@@ -1,45 +1,45 @@
-This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
+# Task Instructions
 
-## Available Scripts
+**IMPORTANT**: Please remember to sign-in to your GitHub account and FORK this project before you continue with this exercise
 
-In the project directory, you can run:
+Once you get to the sign in page, you will need to enter the following:
 
-### `yarn start`
+```
+server: https://academy.demos.dhis2.org/web-app/
+username: admin
+password: district
+```
+## If you're having issues connecting to the server
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Please check [this link](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/DEBUG.md#if-youre-using-chrome) for troubleshooting tips.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## If you're having issues with CodeSandbox:
 
-### `yarn test`
+- Please [Restart Sandbox](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/CODESANDBOX.md) using the toolbar on the left, or restart the server
+- Refresh the browser in the Sandbox
+- Make sure to save the code (with `CTRL + S` or `CMD + S`)
+- Refresh your browser
 
-Launches the test runner and runs all available tests found in `/src`.<br />
+## Reference
 
-See the section about [running tests](https://platform.dhis2.nu/#/scripts/test) for more information.
+- Check the [slides](https://drive.google.com/file/d/1LgLE2uEWeKGp8ik3aeV1gMbLvqqQSxxu/view?usp=sharing) for code examples for these 3 tasks
+- App Runtime Hooks [documentation](https://runtime.dhis2.nu/#/hooks/)
 
-### `yarn build`
+## TASK 1 - Using Dynamic queries and variables
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- In this task you will convert a static query into a dynamic one
+- Check comments `@TODO-1`
+- You will be working in the `src/ProgramsList.js` component
 
-The build is minified and the filenames include the hashes.<br />
-A deployable `.zip` file can be found in `build/bundle`!
+## TASK 2 - Using `Alerts`
 
-See the section about [building](https://platform.dhis2.nu/#/scripts/build) for more information.
+- Check the comments in the `src/ProgramList.js` component starting with `@TODO-2`
+- In this task you will use a simple `useAlert` to show alerts when a program has been created
+- **NOTE**: To be able to see if a Program was successfully added, make sure that your text starts with the letter "A" (programs are rendered in alphabetical order)
 
-### `yarn deploy`
+## TASK 3 - Define a dynamic delete mutation
 
-Deploys the built app in the `build` folder to a running DHIS2 instance.<br />
-This command will prompt you to enter a server URL as well as the username and password of a DHIS2 user with the App Management authority.<br/>
-You must run `yarn build` before running `yarn deploy`.<br />
-
-See the section about [deploying](https://platform.dhis2.nu/#/scripts/deploy) for more information.
-
-## Learn More
-
-You can learn more about the platform in the [DHIS2 Application Platform Documentation](https://platform.dhis2.nu/).
-
-You can learn more about the runtime in the [DHIS2 Application Runtime Documentation](https://runtime.dhis2.nu/).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Here you will be working mostly in the `src/DeleteProgram.js` component
+- Check for comments starting with `@TODO-3`
+- The goal of this task is to make the Delete button work
+- You will implement a delete mutation using dynamic query techniques
