@@ -58,7 +58,7 @@ You are now ready to start your application locally!
 * Run `yarn start` - This will run the app in the development mode.
 
 ```sh
-yarn start
+ yarn start --proxy https://debug.dhis2.org/academy --proxyPort 8082
 ```
 
 * From the browser, go to [http://localhost:3000](http://localhost:3000). You will see the following page:
@@ -66,7 +66,7 @@ yarn start
 ![](./assets/new-app-login-page.png)
 
 * Before you sign in, you need to log in to the DHIS2 instance which will be your **server**:
-  - Go to: https://academy.demos.dhis2.org/web-app/
+  - Go to: https://debug.dhis2.org/academy
   - You will see this page:
 ![](./assets/image-of-login.png)
   - Sign in as username: `admin` and password: `district`
