@@ -22,10 +22,6 @@ You are free to choose the purpose of your application in this project. We only 
 - App **must** use the `useAlert` hook to show alerts. See [example](https://github.com/dhis2/academy-web-app-dev-2022/tree/main/workshop/05-advanced-app-runtime/exercises-solution) from the App Runtime exercises.
 - **BONUS:** You are more welcome to include any of the tools that you've learned during the workshop!
 
-## Deadline
-
-#### **June 15, 2022**
-
 ## Submission details
 
 1. Join GitHub Classroom through this [link](https://classroom.github.com/a/EQw8Kv6H).
