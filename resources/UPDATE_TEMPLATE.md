@@ -21,7 +21,7 @@ If you get the following error:
 
 Please run:
 
-`git merge upstream/main --allow-unrelated-histories`
+`git merge upstream/main --allow-unrelated-histories -X theirs`
 
 If you get merge conflicts, please resolve the conflicts on your code editor.
 
