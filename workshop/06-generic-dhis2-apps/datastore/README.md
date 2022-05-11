@@ -1,31 +1,6 @@
 # Task Instructions
 
-**IMPORTANT**: Please remember to sign-in to your GitHub account and FORK this project before you continue with this exercise
-
-Once you get to the sign in page, you will need to enter the following:
-
-```
-server: https://academy.demos.dhis2.org/web-app
-username: admin
-password: district
-```
-
-## If you're having issues connecting to the server
-
-Please check [this link](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/DEBUG.md#if-youre-using-chrome) for troubleshooting tips.
-
-## If you're having issues with CodeSandbox:
-
-- Please [Restart Sandbox](https://github.com/dhis2/academy-web-app-dev-2022/blob/main/resources/CODESANDBOX.md) using the toolbar on the left, or restart the server
-- Refresh the browser in the Sandbox
-- Make sure to save the code (with `CTRL + S` or `CMD + S`)
-- Refresh your browser
-
-## Reference
-
-- Check the [slides](https://docs.google.com/presentation/d/1OHwNn4TABl4dRoTTAAmyDw3GQo41HGgmAZ4MaTzbTmo/edit?usp=sharing) for code examples for these 4 tasks
-- DataStore [API documentation](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-236/data-store.html)
-- App Service Datastore [documentation](https://github.com/dhis2/app-service-datastore)
+After you've completed the tasks below, please follow these [instructions](../../../resources/GET_STARTED.md#how-to-submit-assignments) for submitting your assignment.
 
 ## TASK 1 - Initialize the DataStoreProvider
 
@@ -50,3 +25,9 @@ Please check [this link](https://github.com/dhis2/academy-web-app-dev-2022/blob/
 - Here you will be working in the `src/RemoveButton.js` component
 - Check for comments starting with `@TODO-4`
 - The goal of this task is to make the Remove buttons work
+
+## Reference
+
+- Check the [slides](https://docs.google.com/presentation/d/1OHwNn4TABl4dRoTTAAmyDw3GQo41HGgmAZ4MaTzbTmo/edit?usp=sharing) for code examples for these 4 tasks
+- DataStore [API documentation](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-236/data-store.html)
+- App Service Datastore [documentation](https://github.com/dhis2/app-service-datastore)

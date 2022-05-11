@@ -1,6 +1,6 @@
 # DHIS2 Web App Development Academy 2022
 
-**Session Recordings** for the workshops will be available on the [DHIS2 Developer Portal](https://developers.dhis2.org/events/academy-workshops-2022).
+**Session Recordings** for the workshop are available on [this YouTube playlist](https://www.youtube.com/playlist?list=PLo6Seh-066RzKN1UE_53LLEnhtPmy6zRc).
 
 ## Resources
 

@@ -1,14 +1,8 @@
-# Workshop 1 - App Runtime Task 1
+# Workshop - App Runtime Task 1
 
-## Useful Links
+## Tasks
 
-* [DHIS2 Application Runtime](https://runtime.dhis2.nu/#/)
-* [How to work on assignments](../../../resources/GET_STARTED.md#working-on-directories-that-contain-starter-code): Follow instructions on how to  start working on assignments. 
-
-
-## Tasks 
-
-* Here you would need to write a query and define some parameters 
+* Here you would need to write a query and define some parameters
 
 ```js
 const query = {
@@ -17,20 +11,20 @@ const query = {
     },
 }
 ```
-* Finally, you would need to use that query defined above to render your data 👇 
+* Finally, you would need to use that query defined above to render your data 👇
 
 ```js
 export const IndicatorsList = () => {
     // @TODO: Replace this line with a hook to perform the above query!
-    const { loading, error, data } = { loading: false, error: 'Unimplemented', data: undefined } 
+    const { loading, error, data } = { loading: false, error: 'Unimplemented', data: undefined }
 }
 ```
 ## Solution:
 
 * After you've completed these tasks, your application should look like this:
 
-![](./assets/indicators.png) 
+![](./assets/indicators.png)
 
-### Submit your assignment 
+### Submit your assignment
 
-When you're ready, please follow these [instructions](../../../resources/GET_STARTED.md#how-to-submit-assignments) to submit your assignment. 
+When you're ready, please follow these [instructions](../../../resources/GET_STARTED.md#how-to-submit-assignments) to submit your assignment.

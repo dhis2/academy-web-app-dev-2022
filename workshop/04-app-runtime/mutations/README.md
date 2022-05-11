@@ -1,4 +1,4 @@
-## Workshop 1 - App Runtime Task 2
+## Workshop - App Runtime Task 2
 
 ### Fill in mutations
 

@@ -15,11 +15,11 @@ May 9 - 12, 2022, 10:00-13:00 CET
 
 [See this doc](https://docs.google.com/document/d/1_XAxzC6xLBhbw80L869iQJ8Epj5fLI0m1dKSAK2CF78/edit?usp=sharing)
 
+## Videos
+[See this YouTube playlist](https://www.youtube.com/playlist?list=PLo6Seh-066RzKN1UE_53LLEnhtPmy6zRc)
+
 ## Useful Links
 
 - [Full Agenda](https://docs.google.com/document/d/1_XAxzC6xLBhbw80L869iQJ8Epj5fLI0m1dKSAK2CF78/edit?usp=sharing)
-- [Final Project details](../projects/final-project/README.md)
-- [Using CodeSandbox](../resources/CODESANDBOX.md)
 - [Server debugging](../resources/DEBUG.md)
 - [Developer Portal - Academy events page](https://developers.dhis2.org/events/developer-academy)
-- [Recordings and Slides for the Workshop](https://developers.dhis2.org/events/developer-academy#web-app-track)

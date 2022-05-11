@@ -6,7 +6,7 @@
 - [REST API Query Viewer](https://s3-eu-west-1.amazonaws.com/content.dhis2.org/general/query-viewer.html)
 - [Data Query Playground](https://runtime.dhis2.nu/playground)
 
-## Examples 
+## Examples
 
 Analytics Query (URL parameters)
 
@@ -45,3 +45,23 @@ Data Query (same result)
   }
 }
 ```
+
+## Task 1
+
+You're now going to practice on using these elements:
+
+- Metadata object filter
+- Browsing the web API
+- Metadata field filter
+
+We want you to create the following query:
+
+```Fetch organisation units: get only ones with ‘CHP’ in the name. Use a page size of 10, and sort the results by the name property in descending order. For each result, get the id, name, displayName, code, and lastUpdated properties```
+
+then run it against [academy.demos.dhis2.org/web-app](https://academy.demos.dhis2.org/web-app) and paste the result in a new `solution.json` file in this directory (`03-dhis2-api-overview`).
+
+Some handy links:
+
+- [REST API Documentation](https://docs.dhis2.org/2.34/en/dhis2_developer_manual/web-api.html)
+- [App Runtime Docs](https://runtime.dhis2.nu)
+- [Data Query Playground](https://runtime.dhis2.nu/playground)
