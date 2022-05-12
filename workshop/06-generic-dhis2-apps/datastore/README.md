@@ -26,6 +26,11 @@ After you've completed the tasks below, please follow these [instructions](../..
 - Check for comments starting with `@TODO-4`
 - The goal of this task is to make the Remove buttons work
 
+## TASK 5 - Add offline support for your app
+
+- Enabe PWA in d2.config.js
+- Use the `useOnlineStatus` hook from `@dhis2/app-runtime` to disable all interactivity in the application when the user is offline
+
 ## Reference
 
 - Check the [slides](https://docs.google.com/presentation/d/1OHwNn4TABl4dRoTTAAmyDw3GQo41HGgmAZ4MaTzbTmo/edit?usp=sharing) for code examples for these 4 tasks

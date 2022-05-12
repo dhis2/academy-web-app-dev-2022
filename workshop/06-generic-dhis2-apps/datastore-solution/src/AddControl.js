@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Input } from "@dhis2/ui";
-import { useAlert } from "@dhis2/app-runtime";
+import { useAlert, useOnlineStatus } from "@dhis2/app-runtime";
 import i18n from "./locales/index.js";
 
 import { addControl } from "./App.module.css";
@@ -14,6 +14,8 @@ const AddControl = ({ add }) => {
     duration: 5000,
   });
 
+  const { offline } = useOnlineStatus()
+
   return (
     <div className={addControl}>
       <Input
@@ -23,7 +25,7 @@ const AddControl = ({ add }) => {
         onChange={({ value }) => setNewVisName(value)}
       ></Input>
       <Button
-        disabled={loading}
+        disabled={loading || offline}
         primary
         onClick={() => {
           if (!newVisName.length) {
