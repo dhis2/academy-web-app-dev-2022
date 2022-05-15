@@ -83,15 +83,20 @@ Please follow [this step-by-step guide](../../resources/GET_STARTED.md#working-o
 |    # Navigation module
 |--- /navigation
 |------ Navigation.js
+|------ index.js
 |    # Contains the page components
 |--- /views
 |------ Home.js
 |------ Attributes.js
 |------ Form.js
+|------ Form.module.css
+|------ index.js
 |       # Redirects to the homepage
 |------ NoMatch.js
 |    # Contains the routing
 |--- App.js
+|--- App.module.css
+|--- App.test.js
 ```
 
 <a name="task-1" href=""></a>
